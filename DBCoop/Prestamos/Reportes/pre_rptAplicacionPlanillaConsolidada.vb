@@ -1,0 +1,3 @@
+﻿Public Class pre_rptAplicacionPlanillaConsolidada
+
+End Class

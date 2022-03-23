@@ -1,0 +1,3 @@
+Public Class aho_rptDetalleBeneficiarios
+
+End Class

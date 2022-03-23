@@ -1,0 +1,24 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Tahoma;}{\f3\fswiss\fcharset0 Arial;}} 
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;} 
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\qr\b\f0\fs40 Fddf0300\par 
+N\'ba ACC. FORMATIVA: 104\par 
+N\'ba GRUPO: 1\par 
+\pard\ul\fs50\par 
+\pard\qc\fs64\par 
+\par 
+\pard\li180\qc\i\fs56 CLAVE DE ACCESO DEL TUTOR\par 
+\par 
+\pard\li180 TUTOR\fs52 :\ulnone  \fs48 AINHOA URIBETE VASERT\b0\i0\par 
+\pard\ul\b\i\fs64  \par 
+\par 
+\pard\fi-360\li720\tx720\ulnone\b0\i0\f1\fs44\'b7\tab\b\f0 Plataforma: \ul\i\par 
+\pard\li360\par 
+\pard\ulnone\i0\fs24             http://aaaa.xx.xx\cf2\f2\fs22\par 
+\par 
+\cf0\ul\i\f0\fs64\par 
+\pard\fi-360\li720\tx720\ulnone\b0\i0\f1\fs44\'b7\tab\b\f0 Login: a.azpitartetutor\ul\i\par 
+\pard\fi-360\li720\ulnone\b0\i0\f1\'b7\tab\b\f0 Pass:  20187419\ul\i\par 
+\pard\fs64\par 
+\pard\li360\ulnone\i0\fs40\par 
+\pard\b0\f3\fs20\par 
+} 

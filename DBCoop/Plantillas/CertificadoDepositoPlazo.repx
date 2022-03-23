@@ -1,0 +1,452 @@
+/// <XRTypeInfo>
+///   <AssemblyFullName>DevExpress.XtraReports.v11.1, Version=11.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</AssemblyFullName>
+///   <AssemblyLocation>C:\windows\assembly\GAC_MSIL\DevExpress.XtraReports.v11.1\11.1.4.0__b88d1754d700e49a\DevExpress.XtraReports.v11.1.dll</AssemblyLocation>
+///   <TypeName>DevExpress.XtraReports.UI.XtraReport</TypeName>
+///   <Localization>en-US</Localization>
+///   <References>
+///     <Reference Path="C:\Users\ElmerW\AppData\Local\Microsoft\VisualStudio\9.0\ProjectAssemblies\nth4fncb01\Bravio.exe" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\Microsoft.VisualBasic\8.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualBasic.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Deployment\2.0.0.0__b03f5f7f11d50a3a\System.Deployment.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Data.SqlXml\2.0.0.0__b77a5c561934e089\System.Data.SqlXml.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Security\2.0.0.0__b03f5f7f11d50a3a\System.Security.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Windows.Forms\2.0.0.0__b77a5c561934e089\System.Windows.Forms.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\Accessibility\2.0.0.0__b03f5f7f11d50a3a\Accessibility.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Runtime.Serialization.Formatters.Soap\2.0.0.0__b03f5f7f11d50a3a\System.Runtime.Serialization.Formatters.Soap.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Runtime.Remoting\2.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\Microsoft.VisualC\8.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualC.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_32\System.Transactions\2.0.0.0__b77a5c561934e089\System.Transactions.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_32\System.EnterpriseServices\2.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.DirectoryServices\2.0.0.0__b03f5f7f11d50a3a\System.DirectoryServices.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Design\2.0.0.0__b03f5f7f11d50a3a\System.Design.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Drawing.Design\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.Design.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_32\System.Data.OracleClient\2.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Web.RegularExpressions\2.0.0.0__b03f5f7f11d50a3a\System.Web.RegularExpressions.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.DirectoryServices.Protocols\2.0.0.0__b03f5f7f11d50a3a\System.DirectoryServices.Protocols.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.ServiceProcess\2.0.0.0__b03f5f7f11d50a3a\System.ServiceProcess.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Configuration.Install\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.Install.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Management\2.0.0.0__b03f5f7f11d50a3a\System.Management.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\Microsoft.JScript\8.0.0.0__b03f5f7f11d50a3a\Microsoft.JScript.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\Microsoft.Vsa\8.0.0.0__b03f5f7f11d50a3a\Microsoft.Vsa.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Xml.Linq\3.5.0.0__b77a5c561934e089\System.Xml.Linq.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Core\3.5.0.0__b77a5c561934e089\System.Core.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraGrid.v11.1\11.1.4.0__b88d1754d700e49a\DevExpress.XtraGrid.v11.1.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraLayout.v11.1\11.1.4.0__b88d1754d700e49a\DevExpress.XtraLayout.v11.1.dll" />
+///     <Reference Path="C:\Users\ElmerW\AppData\Local\Microsoft\VisualStudio\9.0\ProjectAssemblies\-jtpuidn01\BravioELL.dll" />
+///     <Reference Path="C:\Users\ElmerW\AppData\Local\Microsoft\VisualStudio\9.0\ProjectAssemblies\k7malkxz01\BravioBLL.dll" />
+///     <Reference Path="C:\Users\ElmerW\AppData\Local\Microsoft\VisualStudio\9.0\ProjectAssemblies\4q_olghj01\BravioDLL.dll" />
+///     <Reference Path="C:\Program Files (x86)\Microsoft Enterprise Library 4.0 - May 2008\Bin\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+///     <Reference Path="C:\Program Files (x86)\Microsoft Enterprise Library 4.0 - May 2008\Bin\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+///     <Reference Path="C:\Program Files (x86)\Microsoft Enterprise Library 4.0 - May 2008\Bin\Microsoft.Practices.ObjectBuilder2.dll" />
+///     <Reference Path="C:\Program Files (x86)\Microsoft Enterprise Library 4.0 - May 2008\Bin\Microsoft.Practices.Unity.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Management.Instrumentation\3.5.0.0__b77a5c561934e089\System.Management.Instrumentation.dll" />
+///     <Reference Path="C:\Users\ElmerW\AppData\Local\Microsoft\VisualStudio\9.0\ProjectAssemblies\unefhcog01\BravioTools.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraNavBar.v11.1\11.1.4.0__b88d1754d700e49a\DevExpress.XtraNavBar.v11.1.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\System.Data.DataSetExtensions\3.5.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraScheduler.v11.1\11.1.4.0__b88d1754d700e49a\DevExpress.XtraScheduler.v11.1.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraScheduler.v11.1.Core\11.1.4.0__b88d1754d700e49a\DevExpress.XtraScheduler.v11.1.Core.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.XtraBars.v11.1\11.1.4.0__b88d1754d700e49a\DevExpress.XtraBars.v11.1.dll" />
+///     <Reference Path="C:\Users\ElmerW\AppData\Local\Microsoft\VisualStudio\9.0\ProjectAssemblies\857grycb01\CajaBL.dll" />
+///     <Reference Path="C:\Users\ElmerW\AppData\Local\Microsoft\VisualStudio\9.0\ProjectAssemblies\td4zr7wf01\CajaDL.dll" />
+///     <Reference Path="C:\Users\ElmerW\AppData\Local\Microsoft\VisualStudio\9.0\ProjectAssemblies\9c5wnzzd01\CajaEL.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.BonusSkins.v11.1\11.1.4.0__95fc6c5621878f0a\DevExpress.BonusSkins.v11.1.dll" />
+///     <Reference Path="C:\windows\assembly\GAC_MSIL\DevExpress.OfficeSkins.v11.1\11.1.4.0__95fc6c5621878f0a\DevExpress.OfficeSkins.v11.1.dll" />
+///     <Reference Path="C:\Users\ElmerW\AppData\Local\Microsoft\VisualStudio\9.0\ProjectAssemblies\asvbxjvr01\Microsoft.Office.Interop.Excel.dll" />
+///     <Reference Path="C:\Users\ElmerW\AppData\Local\Microsoft\VisualStudio\9.0\ProjectAssemblies\9bwzgbmi01\office.dll" />
+///     <Reference Path="C:\windows\assembly\GAC\stdole\7.0.3300.0__b03f5f7f11d50a3a\stdole.dll" />
+///     <Reference Path="C:\Users\ElmerW\AppData\Local\Microsoft\VisualStudio\9.0\ProjectAssemblies\z_9bqjxn01\Microsoft.Vbe.Interop.dll" />
+///   </References>
+/// </XRTypeInfo>
+namespace XtraReportSerialization {
+    
+    public class aho_rptCertificadoAhorro : DevExpress.XtraReports.UI.XtraReport {
+        private DevExpress.XtraReports.UI.PageFooterBand PageFooter;
+        private DevExpress.XtraReports.UI.PageHeaderBand PageHeader;
+        private DevExpress.XtraReports.UI.XRLabel xrlAutorizado2;
+        private DevExpress.XtraReports.UI.XRLabel XrLabel11;
+        private DevExpress.XtraReports.UI.XRLabel xrlAutorizado1;
+        private DevExpress.XtraReports.UI.XRLabel xrlForma2;
+        private DevExpress.XtraReports.UI.XRLabel xrlForma1;
+        private DevExpress.XtraReports.UI.XRLabel xrlNumCuentaCorriente;
+        private DevExpress.XtraReports.UI.XRLabel xrlFechaVence;
+        private DevExpress.XtraReports.UI.XRLabel xrlPlazo;
+        private DevExpress.XtraReports.UI.XRLabel XrLabel5;
+        private DevExpress.XtraReports.UI.XRLabel xrlTasa;
+        private DevExpress.XtraReports.UI.XRLabel xrlCantidadLetras;
+        private DevExpress.XtraReports.UI.XRLabel xrlValor;
+        private DevExpress.XtraReports.UI.XRLabel xrlNumeroAsociado;
+        private DevExpress.XtraReports.UI.XRLabel XrLabel18;
+        private DevExpress.XtraReports.UI.XRLabel xrlNombreAsociado;
+        private DevExpress.XtraReports.UI.XRLabel xrlNumero;
+        private DevExpress.XtraReports.UI.XRLabel xrlCiudad;
+        private DevExpress.XtraReports.UI.DetailBand Detail;
+        private DevExpress.XtraReports.UI.TopMarginBand TopMarginBand1;
+        private DevExpress.XtraReports.UI.BottomMarginBand BottomMarginBand1;
+        private DevExpress.XtraReports.UI.XRSubreport XrSubreport2;
+        private System.Resources.ResourceManager _resources;
+        public aho_rptCertificadoAhorro() {
+            this.InitializeComponent();
+        }
+        private System.Resources.ResourceManager resources {
+            get {
+                if (_resources == null) {
+                    string resourceString = "zsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29ybGliLCBWZXJza" +
+                        "W9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4O" +
+                        "SNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAAAAAAAAAAAAFBBRFBBRFC0AAAA";
+                    this._resources = new DevExpress.XtraReports.Serialization.XRResourceManager(resourceString);
+                }
+                return this._resources;
+            }
+        }
+        private void InitializeComponent() {
+            this.PageFooter = new DevExpress.XtraReports.UI.PageFooterBand();
+            this.PageHeader = new DevExpress.XtraReports.UI.PageHeaderBand();
+            this.Detail = new DevExpress.XtraReports.UI.DetailBand();
+            this.TopMarginBand1 = new DevExpress.XtraReports.UI.TopMarginBand();
+            this.BottomMarginBand1 = new DevExpress.XtraReports.UI.BottomMarginBand();
+            this.xrlAutorizado2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.XrLabel11 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrlAutorizado1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrlForma2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrlForma1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrlNumCuentaCorriente = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrlFechaVence = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrlPlazo = new DevExpress.XtraReports.UI.XRLabel();
+            this.XrLabel5 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrlTasa = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrlCantidadLetras = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrlValor = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrlNumeroAsociado = new DevExpress.XtraReports.UI.XRLabel();
+            this.XrLabel18 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrlNombreAsociado = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrlNumero = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrlCiudad = new DevExpress.XtraReports.UI.XRLabel();
+            this.XrSubreport2 = new DevExpress.XtraReports.UI.XRSubreport();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
+            // 
+            // PageFooter
+            // 
+            this.PageFooter.HeightF = 0F;
+            this.PageFooter.Name = "PageFooter";
+            this.PageFooter.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
+            this.PageFooter.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // PageHeader
+            // 
+            this.PageHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.xrlAutorizado2,
+                        this.XrLabel11,
+                        this.xrlAutorizado1,
+                        this.xrlForma2,
+                        this.xrlForma1,
+                        this.xrlNumCuentaCorriente,
+                        this.xrlFechaVence,
+                        this.xrlPlazo,
+                        this.XrLabel5,
+                        this.xrlTasa,
+                        this.xrlCantidadLetras,
+                        this.xrlValor,
+                        this.xrlNumeroAsociado,
+                        this.XrLabel18,
+                        this.xrlNombreAsociado,
+                        this.xrlNumero,
+                        this.xrlCiudad});
+            this.PageHeader.Font = new System.Drawing.Font("Times New Roman", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.PageHeader.HeightF = 840.6666F;
+            this.PageHeader.Name = "PageHeader";
+            this.PageHeader.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
+            this.PageHeader.StylePriority.UseFont = false;
+            this.PageHeader.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // Detail
+            // 
+            this.Detail.HeightF = 0F;
+            this.Detail.Name = "Detail";
+            this.Detail.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
+            this.Detail.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // TopMarginBand1
+            // 
+            this.TopMarginBand1.HeightF = 0F;
+            this.TopMarginBand1.Name = "TopMarginBand1";
+            // 
+            // BottomMarginBand1
+            // 
+            this.BottomMarginBand1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.XrSubreport2});
+            this.BottomMarginBand1.Name = "BottomMarginBand1";
+            // 
+            // xrlAutorizado2
+            // 
+            this.xrlAutorizado2.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrlAutorizado2.LocationFloat = new DevExpress.Utils.PointFloat(472.8333F, 801.8751F);
+            this.xrlAutorizado2.Name = "xrlAutorizado2";
+            this.xrlAutorizado2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrlAutorizado2.SizeF = new System.Drawing.SizeF(236.8333F, 17F);
+            this.xrlAutorizado2.StylePriority.UseFont = false;
+            this.xrlAutorizado2.StylePriority.UseTextAlignment = false;
+            this.xrlAutorizado2.Text = "xrlAutorizado2";
+            this.xrlAutorizado2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // XrLabel11
+            // 
+            this.XrLabel11.AutoWidth = true;
+            this.XrLabel11.CanGrow = false;
+            this.XrLabel11.CanShrink = true;
+            this.XrLabel11.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.XrLabel11.LocationFloat = new DevExpress.Utils.PointFloat(156.4167F, 525.3125F);
+            this.XrLabel11.Name = "XrLabel11";
+            this.XrLabel11.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.XrLabel11.SizeF = new System.Drawing.SizeF(15.33333F, 16F);
+            this.XrLabel11.StylePriority.UseFont = false;
+            this.XrLabel11.StylePriority.UseTextAlignment = false;
+            this.XrLabel11.Text = "X";
+            this.XrLabel11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrlAutorizado1
+            // 
+            this.xrlAutorizado1.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrlAutorizado1.LocationFloat = new DevExpress.Utils.PointFloat(108.3542F, 801.875F);
+            this.xrlAutorizado1.Name = "xrlAutorizado1";
+            this.xrlAutorizado1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrlAutorizado1.SizeF = new System.Drawing.SizeF(236.8333F, 17F);
+            this.xrlAutorizado1.StylePriority.UseFont = false;
+            this.xrlAutorizado1.StylePriority.UseTextAlignment = false;
+            this.xrlAutorizado1.Text = "xrlAutorizado1";
+            this.xrlAutorizado1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrlForma2
+            // 
+            this.xrlForma2.AutoWidth = true;
+            this.xrlForma2.CanGrow = false;
+            this.xrlForma2.CanShrink = true;
+            this.xrlForma2.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrlForma2.LocationFloat = new DevExpress.Utils.PointFloat(289.6458F, 584.7709F);
+            this.xrlForma2.Name = "xrlForma2";
+            this.xrlForma2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrlForma2.SizeF = new System.Drawing.SizeF(37.33333F, 16F);
+            this.xrlForma2.StylePriority.UseFont = false;
+            this.xrlForma2.StylePriority.UseTextAlignment = false;
+            this.xrlForma2.Text = "XX";
+            this.xrlForma2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            this.xrlForma2.Visible = false;
+            // 
+            // xrlForma1
+            // 
+            this.xrlForma1.AutoWidth = true;
+            this.xrlForma1.CanGrow = false;
+            this.xrlForma1.CanShrink = true;
+            this.xrlForma1.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrlForma1.LocationFloat = new DevExpress.Utils.PointFloat(198.125F, 583.7709F);
+            this.xrlForma1.Name = "xrlForma1";
+            this.xrlForma1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrlForma1.SizeF = new System.Drawing.SizeF(37.33333F, 16F);
+            this.xrlForma1.StylePriority.UseFont = false;
+            this.xrlForma1.StylePriority.UseTextAlignment = false;
+            this.xrlForma1.Text = "XX";
+            this.xrlForma1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            this.xrlForma1.Visible = false;
+            // 
+            // xrlNumCuentaCorriente
+            // 
+            this.xrlNumCuentaCorriente.AutoWidth = true;
+            this.xrlNumCuentaCorriente.CanGrow = false;
+            this.xrlNumCuentaCorriente.CanShrink = true;
+            this.xrlNumCuentaCorriente.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrlNumCuentaCorriente.LocationFloat = new DevExpress.Utils.PointFloat(357.75F, 524.3125F);
+            this.xrlNumCuentaCorriente.Name = "xrlNumCuentaCorriente";
+            this.xrlNumCuentaCorriente.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrlNumCuentaCorriente.SizeF = new System.Drawing.SizeF(140.375F, 16F);
+            this.xrlNumCuentaCorriente.StylePriority.UseFont = false;
+            this.xrlNumCuentaCorriente.StylePriority.UseTextAlignment = false;
+            this.xrlNumCuentaCorriente.Text = "xrlNumCuentaCorriente";
+            this.xrlNumCuentaCorriente.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrlFechaVence
+            // 
+            this.xrlFechaVence.AutoWidth = true;
+            this.xrlFechaVence.CanGrow = false;
+            this.xrlFechaVence.CanShrink = true;
+            this.xrlFechaVence.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrlFechaVence.LocationFloat = new DevExpress.Utils.PointFloat(179.0625F, 338.3125F);
+            this.xrlFechaVence.Name = "xrlFechaVence";
+            this.xrlFechaVence.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrlFechaVence.SizeF = new System.Drawing.SizeF(101.375F, 16.99997F);
+            this.xrlFechaVence.StylePriority.UseFont = false;
+            this.xrlFechaVence.StylePriority.UseTextAlignment = false;
+            this.xrlFechaVence.Text = "xrlFechaVence";
+            this.xrlFechaVence.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrlPlazo
+            // 
+            this.xrlPlazo.AutoWidth = true;
+            this.xrlPlazo.CanGrow = false;
+            this.xrlPlazo.CanShrink = true;
+            this.xrlPlazo.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrlPlazo.LocationFloat = new DevExpress.Utils.PointFloat(549.2916F, 319.9791F);
+            this.xrlPlazo.Name = "xrlPlazo";
+            this.xrlPlazo.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrlPlazo.SizeF = new System.Drawing.SizeF(56.33334F, 16.99997F);
+            this.xrlPlazo.StylePriority.UseFont = false;
+            this.xrlPlazo.StylePriority.UseTextAlignment = false;
+            this.xrlPlazo.Text = "xrlPlazo";
+            this.xrlPlazo.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // XrLabel5
+            // 
+            this.XrLabel5.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.XrLabel5.LocationFloat = new DevExpress.Utils.PointFloat(228.1666F, 319.9791F);
+            this.XrLabel5.Name = "XrLabel5";
+            this.XrLabel5.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.XrLabel5.SizeF = new System.Drawing.SizeF(19.08333F, 16.99997F);
+            this.XrLabel5.StylePriority.UseFont = false;
+            this.XrLabel5.StylePriority.UseTextAlignment = false;
+            this.XrLabel5.Text = "%";
+            this.XrLabel5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // xrlTasa
+            // 
+            this.xrlTasa.AutoWidth = true;
+            this.xrlTasa.CanGrow = false;
+            this.xrlTasa.CanShrink = true;
+            this.xrlTasa.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrlTasa.LocationFloat = new DevExpress.Utils.PointFloat(190.7083F, 319.9791F);
+            this.xrlTasa.Name = "xrlTasa";
+            this.xrlTasa.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrlTasa.SizeF = new System.Drawing.SizeF(36.33334F, 16.99997F);
+            this.xrlTasa.StylePriority.UseFont = false;
+            this.xrlTasa.StylePriority.UseTextAlignment = false;
+            this.xrlTasa.Text = "6.00%";
+            this.xrlTasa.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrlCantidadLetras
+            // 
+            this.xrlCantidadLetras.AutoWidth = true;
+            this.xrlCantidadLetras.CanGrow = false;
+            this.xrlCantidadLetras.CanShrink = true;
+            this.xrlCantidadLetras.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrlCantidadLetras.LocationFloat = new DevExpress.Utils.PointFloat(161.875F, 298.7708F);
+            this.xrlCantidadLetras.Name = "xrlCantidadLetras";
+            this.xrlCantidadLetras.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrlCantidadLetras.SizeF = new System.Drawing.SizeF(589F, 16.99997F);
+            this.xrlCantidadLetras.StylePriority.UseFont = false;
+            this.xrlCantidadLetras.StylePriority.UseTextAlignment = false;
+            this.xrlCantidadLetras.Text = "xrlCantidadLetras";
+            this.xrlCantidadLetras.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrlValor
+            // 
+            this.xrlValor.AutoWidth = true;
+            this.xrlValor.CanGrow = false;
+            this.xrlValor.CanShrink = true;
+            this.xrlValor.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrlValor.LocationFloat = new DevExpress.Utils.PointFloat(577.2916F, 260.7709F);
+            this.xrlValor.Name = "xrlValor";
+            this.xrlValor.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrlValor.SizeF = new System.Drawing.SizeF(105.375F, 16.99997F);
+            this.xrlValor.StylePriority.UseFont = false;
+            this.xrlValor.StylePriority.UseTextAlignment = false;
+            this.xrlValor.Text = "xrlValor";
+            this.xrlValor.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrlNumeroAsociado
+            // 
+            this.xrlNumeroAsociado.AutoWidth = true;
+            this.xrlNumeroAsociado.CanGrow = false;
+            this.xrlNumeroAsociado.CanShrink = true;
+            this.xrlNumeroAsociado.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrlNumeroAsociado.LocationFloat = new DevExpress.Utils.PointFloat(159.5417F, 260.7709F);
+            this.xrlNumeroAsociado.Name = "xrlNumeroAsociado";
+            this.xrlNumeroAsociado.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrlNumeroAsociado.SizeF = new System.Drawing.SizeF(105.375F, 16.99997F);
+            this.xrlNumeroAsociado.StylePriority.UseFont = false;
+            this.xrlNumeroAsociado.StylePriority.UseTextAlignment = false;
+            this.xrlNumeroAsociado.Text = "xrlNumeroAsociado";
+            this.xrlNumeroAsociado.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // XrLabel18
+            // 
+            this.XrLabel18.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.XrLabel18.LocationFloat = new DevExpress.Utils.PointFloat(564.0834F, 260.7709F);
+            this.XrLabel18.Name = "XrLabel18";
+            this.XrLabel18.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.XrLabel18.SizeF = new System.Drawing.SizeF(9.583313F, 16.99997F);
+            this.XrLabel18.StylePriority.UseFont = false;
+            this.XrLabel18.StylePriority.UseTextAlignment = false;
+            this.XrLabel18.Text = "$";
+            this.XrLabel18.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // xrlNombreAsociado
+            // 
+            this.xrlNombreAsociado.AutoWidth = true;
+            this.xrlNombreAsociado.CanGrow = false;
+            this.xrlNombreAsociado.CanShrink = true;
+            this.xrlNombreAsociado.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrlNombreAsociado.LocationFloat = new DevExpress.Utils.PointFloat(159.5417F, 240.9792F);
+            this.xrlNombreAsociado.Name = "xrlNombreAsociado";
+            this.xrlNombreAsociado.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrlNombreAsociado.SizeF = new System.Drawing.SizeF(405F, 16F);
+            this.xrlNombreAsociado.StylePriority.UseFont = false;
+            this.xrlNombreAsociado.StylePriority.UseTextAlignment = false;
+            this.xrlNombreAsociado.Text = "xrlNombreAsociado";
+            this.xrlNombreAsociado.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrlNumero
+            // 
+            this.xrlNumero.AutoWidth = true;
+            this.xrlNumero.CanGrow = false;
+            this.xrlNumero.CanShrink = true;
+            this.xrlNumero.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold);
+            this.xrlNumero.LocationFloat = new DevExpress.Utils.PointFloat(569.2916F, 205.9792F);
+            this.xrlNumero.Name = "xrlNumero";
+            this.xrlNumero.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrlNumero.SizeF = new System.Drawing.SizeF(140.375F, 24F);
+            this.xrlNumero.StylePriority.UseFont = false;
+            this.xrlNumero.StylePriority.UseTextAlignment = false;
+            this.xrlNumero.Text = "xrlNumero";
+            this.xrlNumero.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrlCiudad
+            // 
+            this.xrlCiudad.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrlCiudad.LocationFloat = new DevExpress.Utils.PointFloat(43.89591F, 682.4167F);
+            this.xrlCiudad.Name = "xrlCiudad";
+            this.xrlCiudad.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrlCiudad.SizeF = new System.Drawing.SizeF(318.0833F, 17F);
+            this.xrlCiudad.StylePriority.UseFont = false;
+            this.xrlCiudad.StylePriority.UseTextAlignment = false;
+            this.xrlCiudad.Text = "xrlCiudad";
+            this.xrlCiudad.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // XrSubreport2
+            // 
+            this.XrSubreport2.LocationFloat = new DevExpress.Utils.PointFloat(27.16669F, 5.854162F);
+            this.XrSubreport2.Name = "XrSubreport2";
+            this.XrSubreport2.SizeF = new System.Drawing.SizeF(805.3333F, 21F);
+            // 
+            // aho_rptCertificadoAhorro
+            // 
+            this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.PageFooter,
+                        this.PageHeader,
+                        this.Detail,
+                        this.TopMarginBand1,
+                        this.BottomMarginBand1});
+            this.DataMember = "CertificadoAhorro";
+            this.DrawGrid = false;
+            this.Margins = new System.Drawing.Printing.Margins(0, 0, 0, 100);
+            this.Name = "aho_rptCertificadoAhorro";
+            this.PageHeight = 1100;
+            this.PageWidth = 850;
+            this.SnapToGrid = false;
+            this.Version = "11.1";
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
+        }
+    }
+}

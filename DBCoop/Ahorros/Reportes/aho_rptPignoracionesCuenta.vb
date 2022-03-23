@@ -1,0 +1,3 @@
+Public Class aho_rptPignoracionesCuenta
+
+End Class

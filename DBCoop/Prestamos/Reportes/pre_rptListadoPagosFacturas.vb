@@ -1,0 +1,3 @@
+Public Class pre_rptListadoPagosFacturas
+
+End Class

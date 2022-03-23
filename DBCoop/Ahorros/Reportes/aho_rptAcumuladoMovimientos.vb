@@ -1,0 +1,3 @@
+Public Class aho_rptAcumuladoMovimientos
+
+End Class

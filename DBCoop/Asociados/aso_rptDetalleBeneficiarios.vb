@@ -1,0 +1,3 @@
+Public Class aso_rptDetalleBeneficiarios
+
+End Class

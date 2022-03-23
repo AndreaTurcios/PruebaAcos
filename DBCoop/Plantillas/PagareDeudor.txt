@@ -1,0 +1,18 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang17418\deflangfe17418\deftab708{\fonttbl{\f0\fswiss\fprq2\fcharset0 Verdana;}}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\sl360\slmult1\qc\tx3120\b\i\f0\fs18\par
+\par
+\par
+\par
+PAGARE SIN PROTESTO\b0\par
+\par
+\pard\sl360\slmult1\qj\tx3120 Yo, \b [Nombre]\b0  de \b [Edad]\b0  a\'f1os de edad, \b  [Profesion]\b0   del domicilio de \b [Municipio], \b0  departamento de \b [Depto]\b0  portador(a) de \b  DOCUMENTO UNICO DE IDENTIDAD NUMERO [NumDocumento]\b0 . Por medio de este pagar\'e9 sin protesto me obligo incondicionalmente a pagar a la vista y a la orden de la \b [NombreLargo]\b0 , Conocida por \b [Empresa]\b0 , del domicilio de SUCHITOTO, departamento de CUSCATLAN, la suma de \b [MontoLetras]\b0  de Los Estados Unidos de Am\'e9rica, por medio de \b [NumCuotas] CUOTAS MENSUALES\b0  por un valor de \b [ValorCuota]\b0  de Los Estados Unidos de Am\'e9rica cada una, para el plazo de \b [Plazo]\b0  , que vencer\'e1 el d\'eda \b [FechaVence]. \b0  Reconociendo el inter\'e9s convencional del \b [TasaInteres]\b0 ; en caso de mora reconocer\'e9 el inter\'e9s del \b  [TasaMora] \b0 por ciento mensual sobre las cuotas vencidas. Por la mora de una de las cuotas establecidas en este instrumento caducara el plazo y se volver\'e1 exigible la obligaci\'f3n como si fuese plazo vencido. En caso de acci\'f3n judicial renuncio al derecho de apelar a toda providencia alzable quien se dictare  en el juicio mercantil ejecutivo o sus incidentes; siendo a mi cargo los gastos que hiciere el tenedor en el cobro de este pagar\'e9, inclusive las costas procesales y los llamados gastos personales aun cuando no fuere condenado a ello, se\'f1alo como domicilio especial en caso de acci\'f3n judicial el de la ciudad de \b [Ciudad]\b0 , faculto al tenedor del pagar\'e9 para que designe la persona depositaria de los bienes que se me embarguen relevando a este de las obligaciones de rendir fianza y cuentas.\b  [Ciudad], [FechaActual]. \par
+\par
+\par
+\par
+\par
+\par
+F.________________________________\par
+[Nombre]\par
+            DEUDOR\par
+\par
+}
